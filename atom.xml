@@ -1,113 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Maxim Zaslavsky</title>
-    <meta name="author" content="Maxim Zaslavsky">
-
+  <title><![CDATA[Maxim Zaslavsky]]></title>
+  <link href="http://maximz.github.com/blog/atom.xml" rel="self"/>
+  <link href="http://maximz.github.com/blog/"/>
+  <updated>2012-09-02T22:54:42-07:00</updated>
+  <id>http://maximz.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Maxim Zaslavsky]]></name>
     
-    <meta name="description" content="Using the Source Command in Bash A handy command for bash scripts is source: When a script is run using `source&#8217; it runs within the existing &hellip;">
-    
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-    <link href="/atom.xml" rel="alternate" title="Maxim Zaslavsky" type="application/atom+xml">
-    <link rel="canonical" href="">
-    <link href="/favicon.png" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    
-    
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-16705395-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body>
-	<header class="inner"><h1 class="left"><a href="/">Maxim Zaslavsky</a></h1>
-<nav class="menu left"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
-</ul>
-</nav>
-<div class="right">
-	<form class="search right" action="http://google.com/search" method="get">
-		<input class="left" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:maximz.github.com/blog">
-	</form>
-	<div class="social right">
-		
-		<a class="facebook" href="http://www.facebook.com/maximz" title="Facebook">Facebook</a>
-		
-		
-		<a class="google" href="https://plus.google.com/100739369300128492000" title="Google+">Google+</a>
-		
-		
-		<a class="twitter" href="http://twitter.com/zazius" title="Twitter">Twitter</a>
-		
-		
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-	</div>
-</div>
-
-</header>
-	<div id="content" class="inner">
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/05/27/using-the-source-command-in-bash/">Using the Source Command in Bash</a></h1>
-    <div class="entry">
-        <p>A handy command for bash scripts is <code>source</code>:</p>
+  
+  <entry>
+    <title type="html"><![CDATA[Using the source command in bash]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/05/27/using-the-source-command-in-bash/"/>
+    <updated>2012-05-27T00:51:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/05/27/using-the-source-command-in-bash</id>
+    <content type="html"><![CDATA[<p>A handy command for bash scripts is <code>source</code>:</p>
 
 <blockquote><p><a href="http://ss64.com/bash/period.html">When a script is run using `source&#8217; it runs within the existing shell, any variables created or modified by the script will remain available after the script completes.</a></p></blockquote>
 
 <p>So if you want to execute code that affects your current shell, rather than having it run in its separate subshell, run <code>source ./mycode</code> or <code>. ./mycode</code>.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-05-27T00:51:00-07:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/05/27/using-the-source-command-in-bash/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/05/26/fixing-positioning-issues-with-colorbars-in-matplotlib/">Positioning Issues With Colorbars in Matplotlib</a></h1>
-    <div class="entry">
-        <p>I ran into a problem with some Matplotlib code the other day: clearing a figure that previously held a Colorbar would still keep empty space in the location of the now-removed Colorbar.</p>
+  <entry>
+    <title type="html"><![CDATA[Positioning issues with Colorbars in Matplotlib]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/05/26/fixing-positioning-issues-with-colorbars-in-matplotlib/"/>
+    <updated>2012-05-26T01:36:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/05/26/fixing-positioning-issues-with-colorbars-in-matplotlib</id>
+    <content type="html"><![CDATA[<p>I ran into a problem with some Matplotlib code the other day: clearing a figure that previously held a Colorbar would still keep empty space in the location of the now-removed Colorbar.</p>
 
 <p>In other words, after removing the Colorbar from a figure, the figure would not shift back to its full width. And adding a colorbar afterwards would decrease the width of the figure even further, so the problem would compound.</p>
 
@@ -122,44 +46,15 @@
 <p>This solution is inherently hacky, but does its job well. If you execute that code after clearing a figure (<code>self.figure.clf()</code>), the figure will shift to the right, returning to its original width before the creation of the Colorbar.</p>
 
 <p>Also, if you are plotting multiple graphs in the same figure, I recommend keeping global handles to the figure, to the current axes, to the current Colorbar (if it exists), and to other graph elements. With that design, updating the figure requires only modification of those handles and a call to <code>draw()</code>, and you can fix the Colorbar positioning problem by checking to see if its handle is defined before you plot a new graph and correspondingly executing the removal code.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-05-26T01:36:00-07:00" pubdate data-updated="true">May 26<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/code/'>code</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/05/26/fixing-positioning-issues-with-colorbars-in-matplotlib/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/05/25/extending-partitions-in-virtualbox-vdis/">Extending and Resizing Partitions in VirtualBox VDIs</a></h1>
-    <div class="entry">
-        <p>Resizing partitions in VirtualBox virtual disk images can be painful - in some cases, they don&#8217;t work as expected. For instance, I had a working Ubuntu VM where the partition on which the OS was installed reached its size limit. Here&#8217;s what I did:</p>
+  <entry>
+    <title type="html"><![CDATA[Extending and resizing partitions in VirtualBox VDIs]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/05/25/extending-partitions-in-virtualbox-vdis/"/>
+    <updated>2012-05-25T00:37:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/05/25/extending-partitions-in-virtualbox-vdis</id>
+    <content type="html"><![CDATA[<p>Resizing partitions in VirtualBox virtual disk images can be painful - in some cases, they don&#8217;t work as expected. For instance, I had a working Ubuntu VM where the partition on which the OS was installed reached its size limit. Here&#8217;s what I did:</p>
 
 <ol>
 <li><p>If there is not enough unallocated space in the VDI, download the <a href="https://forums.virtualbox.org/viewtopic.php?t=22422">CloneVDI tool</a> and make a cloned version of your VDI with as much more space as is needed.</p></li>
@@ -174,38 +69,15 @@
 <p>The key to this procedure is moving the partitions left. Without doing that, you won&#8217;t be able to resize the main partition.</p>
 
 <p>An alternative, but more risky procedure is to expand your VDI with CloneVDI so that you can create an entire new parition with the desired size. Then, copy the contents from your original partition to the new old in GParted and set the &#8220;boot&#8221; mark to the new one. When I tried that, however, I lost my master boot record in the process and had to reinstall my Grub bootloader and configure it to mount Linux, which is an ugly process (I might write up the details in another post).</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-05-25T00:37:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/05/25/extending-partitions-in-virtualbox-vdis/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/05/24/local-git-sharing-with-a-virtual-machine/">Local Git Sharing With a Virtual Machine</a></h1>
-    <div class="entry">
-        <p>My recent projects have involved work between two OSes. I run Windows as my host OS and virtualize Ubuntu, and in order to share work efficiently between the two, I&#8217;ve been using a local bare Git repository in a shared folder.</p>
+  <entry>
+    <title type="html"><![CDATA[Local Git sharing with a virtual machine]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/05/24/local-git-sharing-with-a-virtual-machine/"/>
+    <updated>2012-05-24T21:35:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/05/24/local-git-sharing-with-a-virtual-machine</id>
+    <content type="html"><![CDATA[<p>My recent projects have involved work between two OSes. I run Windows as my host OS and virtualize Ubuntu, and in order to share work efficiently between the two, I&#8217;ve been using a local bare Git repository in a shared folder.</p>
 
 <p>It&#8217;s quite simple to set up:</p>
 
@@ -242,80 +114,28 @@
 
 
 <p>Now, you can <code>git push</code> and <code>git pull</code> between your repository on the host OS and your repository on the guest OS to synchronize changes.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-05-24T21:35:00-07:00" pubdate data-updated="true">May 24<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/05/24/local-git-sharing-with-a-virtual-machine/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/03/12/starting-fresh/">Starting Fresh</a></h1>
-    <div class="entry">
-        <p>My <a href="http://blog.maximzaslavsky.com">previous blog</a> is a jumble of old posts and ideas in desparate need of abandonement. So I&#8217;m finally moving to Jekyll (specifically Octopress).</p>
+  <entry>
+    <title type="html"><![CDATA[Starting fresh]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/03/12/starting-fresh/"/>
+    <updated>2012-03-12T00:00:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/03/12/starting-fresh</id>
+    <content type="html"><![CDATA[<p>My <a href="http://blog.maximzaslavsky.com">previous blog</a> is a jumble of old posts and ideas in desparate need of abandonement. So I&#8217;m finally moving to Jekyll (specifically Octopress).</p>
 
 <p>And I&#8217;m starting fresh. Completely new content, except for a few old posts that I revamped for this new blog.</p>
 
 <p>Let&#8217;s see how this goes. Welcome!</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-03-12T00:00:00-07:00" pubdate data-updated="true">Mar 12<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/meta/'>meta</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/03/12/starting-fresh/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2012/02/12/recovering-from-sugarsync-merge-failures-over-source-control-repositories/">Recovering From SugarSync Merge Failures Over Source Control Repositories</a></h1>
-    <div class="entry">
-        <h2>Intro to SugarSync (SS)</h2>
+  <entry>
+    <title type="html"><![CDATA[Recovering from SugarSync merge failures over source control repositories]]></title>
+    <link href="http://maximz.github.com/blog/blog/2012/02/12/recovering-from-sugarsync-merge-failures-over-source-control-repositories/"/>
+    <updated>2012-02-12T01:11:00-08:00</updated>
+    <id>http://maximz.github.com/blog/blog/2012/02/12/recovering-from-sugarsync-merge-failures-over-source-control-repositories</id>
+    <content type="html"><![CDATA[<h2>Intro to SugarSync (SS)</h2>
 
 <p>Ever since I started using <strong><a href="http://sugarsync.com">SugarSync</a></strong>, I&#8217;ve loved the app. Until now, it&#8217;s proven to be easy to use and abnormally straightforward.</p>
 
@@ -348,44 +168,15 @@
 
 
 <p>If you run into this problem and just want a binary, here is the <a href="https://github.com/maximz/sugarsyncfilefix/raw/master/SugarSyncFileFix/bin/Release/SugarSyncFileFix.exe">Windows, .NET 4 binary</a>.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2012-02-12T01:11:00-08:00" pubdate data-updated="true">Feb 12<span>th</span>, 2012</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/code/'>code</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2012/02/12/recovering-from-sugarsync-merge-failures-over-source-control-repositories/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/09/24/facebook-timeline-niche/">Facebook&#8217;s New Niche</a></h1>
-    <div class="entry">
-        <p><em>Note: This is a repost of <a href="http://blog.maximzaslavsky.com/2011/09/facebooks-new-niche/">a post</a> from my old blog. It was originally published on September 24, 2011.</em></p>
+  <entry>
+    <title type="html"><![CDATA[Facebook's New Niche]]></title>
+    <link href="http://maximz.github.com/blog/blog/2011/09/24/facebook-timeline-niche/"/>
+    <updated>2011-09-24T00:00:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2011/09/24/facebook-timeline-niche</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a repost of <a href="http://blog.maximzaslavsky.com/2011/09/facebooks-new-niche/">a post</a> from my old blog. It was originally published on September 24, 2011.</em></p>
 
 <p>In the midst of Facebook’s widly-discussed UI changes this week, one new feature fell through the cracks: the Timeline (currently only in developer beta, but you can be involved by <a href="http://techcrunch.com/2011/09/22/how-to-enable-facebook-timeline/">following these steps</a>).</p>
 
@@ -404,44 +195,15 @@
 <p><strong>Life-tracking might be Facebook’s niche.</strong> Google+’s focus is sharing, not identity creation. In terms of user identity, G+ certainly aims to consolidate your web activity under one profile. But Facebook doesn’t have the web – instead, they combine activity on their site (status updates, photos, places, and now app activity via Open Graph) with the life events you input. In a way, Google+ and Facebook aren’t currently competing in that realm, although Google might certainly try to follow Facebook. If anyone could do something like that best, it would be Google, specifically because of how much we rely on their services in our lives and how much information we have about ourselves on the web.</p>
 
 <p>Hopefully, this timeline feature won’t be treated as just another annoying Facebook redesign. It has the potential to change the way we approach the Internet and collect our online identities. Facebook has been making dumb moves lately – but this might be <strong>their killer app</strong>.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2011-09-24T00:00:00-07:00" pubdate data-updated="true">Sep 24<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/web/'>web</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2011/09/24/facebook-timeline-niche/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2010/02/13/windows-7-versions/">Windows N and KN Versions</a></h1>
-    <div class="entry">
-        <p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2010/02/windows-7-n-and-kn-versions/">a post</a> from my old blog.  It was originally published on February 13, 2010.</em></p>
+  <entry>
+    <title type="html"><![CDATA[Windows N and KN Versions]]></title>
+    <link href="http://maximz.github.com/blog/blog/2010/02/13/windows-7-versions/"/>
+    <updated>2010-02-13T00:00:00-08:00</updated>
+    <id>http://maximz.github.com/blog/blog/2010/02/13/windows-7-versions</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2010/02/windows-7-n-and-kn-versions/">a post</a> from my old blog.  It was originally published on February 13, 2010.</em></p>
 
 <p>For MSDN users who are confused about the N and KN versions of Windows that are available, since there is very little documentation about this, those are distributions specifically for Europe.</p>
 
@@ -450,38 +212,15 @@
 <p><strong>No Windows Media Player. No Windows Media Center.</strong></p>
 
 <p>But if you want these features in your N/KN install, you can download the <a href="http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=19289">Windows Media Format Feature Pack</a>.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2010-02-13T00:00:00-08:00" pubdate data-updated="true">Feb 13<span>th</span>, 2010</time></div>
-        <div class="tags">
-
-</div>
-        
-        <span class="comments"><a href="/blog/2010/02/13/windows-7-versions/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2009/12/27/using-netgear-as-ethernet-bridge/">Dead-Simple Ethernet Bridge/Hub</a></h1>
-    <div class="entry">
-        <p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2009/12/using-a-netgear-wgt224-as-ethernet-bridge-hub/">a post</a> from my old blog. It was originally published on December 27, 2009.</em></p>
+  <entry>
+    <title type="html"><![CDATA[Dead-Simple Ethernet Bridge/Hub]]></title>
+    <link href="http://maximz.github.com/blog/blog/2009/12/27/using-netgear-as-ethernet-bridge/"/>
+    <updated>2009-12-27T00:00:00-08:00</updated>
+    <id>http://maximz.github.com/blog/blog/2009/12/27/using-netgear-as-ethernet-bridge</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2009/12/using-a-netgear-wgt224-as-ethernet-bridge-hub/">a post</a> from my old blog. It was originally published on December 27, 2009.</em></p>
 
 <p>Upon moving into my new office, I hit an instant dilemna: there was only one Ethernet port and I had multiple Ethernet devices.</p>
 
@@ -502,44 +241,15 @@
 
 
 <p>That did the trick for me. You might encounter a warning notice from your main router (not the bridge) when you first try this setup.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2009-12-27T00:00:00-08:00" pubdate data-updated="true">Dec 27<span>th</span>, 2009</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/hardware/'>hardware</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2009/12/27/using-netgear-as-ethernet-bridge/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2009/06/28/csharp-cookies/">C#: Handling Cookies in a Series of HttpWebRequest and HttpWebResponse Sessions</a></h1>
-    <div class="entry">
-        <p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2009/06/c-handling-cookies-in-a-series-of-httpwebrequest-and-httpwebresponse-sessions/">a post</a> from my old blog.  It was originally published on June 28, 2009.</em></p>
+  <entry>
+    <title type="html"><![CDATA[C#: handling cookies in a series of HttpWebRequest and HttpWebResponse sessions]]></title>
+    <link href="http://maximz.github.com/blog/blog/2009/06/28/csharp-cookies/"/>
+    <updated>2009-06-28T00:00:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2009/06/28/csharp-cookies</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2009/06/c-handling-cookies-in-a-series-of-httpwebrequest-and-httpwebresponse-sessions/">a post</a> from my old blog.  It was originally published on June 28, 2009.</em></p>
 
 <p>A while back, I was working on &#8220;wrapping&#8221; and extracting data from an online database UI. In order to retrieve data, a user would submit a series of HTML forms, view the resulting map, and then see a popup with a malformed-HTML table of all the points displayed on the map. My goal was to write some C# that would submit these painful forms in various desired combinations and retrieve and parse the points.</p>
 
@@ -556,69 +266,26 @@
 
 
 <p>Use the last line to apply <code>cookieJar</code> to each request and you&#8217;re set!</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[Adding a favicon to your Wordpress.com blog]]></title>
+    <link href="http://maximz.github.com/blog/blog/2009/06/01/favicon-wordpress/"/>
+    <updated>2009-06-01T00:00:00-07:00</updated>
+    <id>http://maximz.github.com/blog/blog/2009/06/01/favicon-wordpress</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2009/06/adding-a-favicon-to-your-wordpress-com-blog/">a post</a> from my old blog. It was originally published on June 1, 2009.</em></p>
 
+<p>The documentation for adding favicons to <a href="http://wordpress.com">Wordpress.com</a> blogs is a bit confusing. The right way to do it is to create a <strong>Blavatar</strong>: Blog + Avatar.</p>
 
-<time datetime="2009-06-28T00:00:00-07:00" pubdate data-updated="true">Jun 28<span>th</span>, 2009</time></div>
-        <div class="tags">
+<p>A Blavatar is an uploaded picture that functions as your avatar when you comment on other blogs or when they link to your blog, and as your favicon.</p>
 
-<div class="cat">
+<p>To get started, open the Settings &#8211;> General page of a Wordpress.com blog dashboard. Upload a jpg or png to the &#8220;Blog Picture&#8221; panel, and then Wordpress.com will help you crop it to for it to be a valid favicon.</p>
+
+<p>I recommend uploading a large, square Blavatar that Wordpress will then scale down to the proper favicon size, so that other Blavatar usage is at a good resolution.</p>
+
+<p><em>This applies only to Wordpress.com blogs. For self-hosted <a href="http://wordpress.org">Wordpress.org</a> installations, you can either use one of the many available favicon plugins, or you can manually create and upload a favicon to your root directory.</em></p>
+]]></content>
+  </entry>
   
-    <a class='category' href='/blog/categories/code/'>code</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/blog/2009/06/28/csharp-cookies/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-<nav id="pagenavi">
-    
-    
-        <a href="/blog/page/2/" class="next">Next</a>
-    
-    <a href="/blog/archives" class="center">Blog Archives</a>
-</nav></div>
-	<footer class="inner">Copyright &copy; 2012
-
-    Maxim Zaslavsky
-
-</footer>
-	<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script src="/javascripts/slash.js"></script>
-
-
-<script type="text/javascript">
-      var disqus_shortname = 'maximz';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-</body>
-</html>
+</feed>
