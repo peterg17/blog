@@ -1,63 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2009/06/01/favicon-wordpress/</loc>
+        <loc>http://blog.maximzaslavsky.com/favicon-wordpress</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2009/06/28/csharp-cookies/</loc>
+        <loc>http://blog.maximzaslavsky.com/csharp-cookies</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2009/12/27/using-netgear-as-ethernet-bridge/</loc>
+        <loc>http://blog.maximzaslavsky.com/using-netgear-as-ethernet-bridge</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2010/02/13/windows-7-versions/</loc>
+        <loc>http://blog.maximzaslavsky.com/windows-7-versions</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2011/09/24/facebook-timeline-niche/</loc>
+        <loc>http://blog.maximzaslavsky.com/facebook-timeline-niche</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://maximz.github.com/blog/blog/2012/02/12/recovering-from-sugarsync-merge-failures-over-source-control-repositories/
+            http://blog.maximzaslavsky.com/recovering-from-sugarsync-merge-failures-over-source-control-repositories
         </loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2012/03/12/starting-fresh/</loc>
+        <loc>http://blog.maximzaslavsky.com/starting-fresh</loc>
+        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/local-git-sharing-with-a-virtual-machine</loc>
+        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/extending-partitions-in-virtualbox-vdis</loc>
         <lastmod>2012-05-25T01:58:05-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://maximz.github.com/blog/blog/2012/05/24/local-git-sharing-with-a-virtual-machine/
-        </loc>
-        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://maximz.github.com/blog/blog/2012/05/25/extending-partitions-in-virtualbox-vdis/
-        </loc>
-        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://maximz.github.com/blog/blog/2012/05/26/fixing-positioning-issues-with-colorbars-in-matplotlib/
+            http://blog.maximzaslavsky.com/fixing-positioning-issues-with-colorbars-in-matplotlib
         </loc>
         <lastmod>2012-05-28T00:15:27-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/2012/05/27/using-the-source-command-in-bash/</loc>
+        <loc>http://blog.maximzaslavsky.com/using-the-source-command-in-bash</loc>
         <lastmod>2012-05-28T00:15:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/</loc>
+        <loc>http://blog.maximzaslavsky.com/404.html</loc>
+        <lastmod>2012-09-06T18:49:31-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/archives/</loc>
         <lastmod>2012-05-28T00:15:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://maximz.github.com/blog/blog/archives/</loc>
+        <loc>http://blog.maximzaslavsky.com/</loc>
         <lastmod>2012-05-28T00:15:40-07:00</lastmod>
     </url>
 </urlset>
