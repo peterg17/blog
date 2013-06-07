@@ -14,7 +14,11 @@
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/windows-7-versions</loc>
-        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/du-wikipedia</loc>
+        <lastmod>2013-06-07T15:10:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/facebook-timeline-niche</loc>
@@ -32,11 +36,11 @@
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/local-git-sharing-with-a-virtual-machine</loc>
-        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/extending-partitions-in-virtualbox-vdis</loc>
-        <lastmod>2012-05-25T01:58:05-07:00</lastmod>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
     </url>
     <url>
         <loc>
@@ -46,7 +50,31 @@
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/using-the-source-command-in-bash</loc>
-        <lastmod>2012-05-28T00:15:40-07:00</lastmod>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/self-driving-cars</loc>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/education-reform</loc>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/cooperation</loc>
+        <lastmod>2013-06-07T14:47:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/academic-writing-from-junior-year</loc>
+        <lastmod>2013-06-07T15:42:03-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/aaron-swartz</loc>
+        <lastmod>2013-06-07T15:12:19-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.maximzaslavsky.com/featured-on-news</loc>
+        <lastmod>2013-06-07T15:13:10-07:00</lastmod>
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/404.html</loc>
@@ -54,10 +82,10 @@
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/archives/</loc>
-        <lastmod>2012-05-28T00:15:40-07:00</lastmod>
+        <lastmod>2013-06-07T15:42:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://blog.maximzaslavsky.com/</loc>
-        <lastmod>2012-09-06T19:17:53-07:00</lastmod>
+        <lastmod>2013-06-07T15:42:03-07:00</lastmod>
     </url>
 </urlset>

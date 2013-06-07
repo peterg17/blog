@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sysadmin | Maxim Zaslavsky]]></title>
+  <link href="http://blog.maximzaslavsky.com/categories/sysadmin/atom.xml" rel="self"/>
+  <link href="http://blog.maximzaslavsky.com/"/>
+  <updated>2013-06-07T15:44:16-07:00</updated>
+  <id>http://blog.maximzaslavsky.com/</id>
+  <author>
+    <name><![CDATA[Maxim Zaslavsky]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Extending and resizing partitions in VirtualBox VDIs]]></title>
+    <link href="http://blog.maximzaslavsky.com/extending-partitions-in-virtualbox-vdis"/>
+    <updated>2012-05-25T00:37:00-07:00</updated>
+    <id>http://blog.maximzaslavsky.com/extending-partitions-in-virtualbox-vdis</id>
+    <content type="html"><![CDATA[<p>Resizing partitions in VirtualBox virtual disk images can be painful - in some cases, they don't work as expected. For instance, I had a working Ubuntu VM where the partition on which the OS was installed reached its size limit. Here's what I did:</p>
+
+<ol>
+<li><p>If there is not enough unallocated space in the VDI, download the <a href="https://forums.virtualbox.org/viewtopic.php?t=22422">CloneVDI tool</a> and make a cloned version of your VDI with as much more space as is needed.</p></li>
+<li><p>Download the <a href="http://gparted.sourceforge.net/">GParted live CD</a> and boot into GParted from your VM.</p></li>
+<li><p>Try to do an in-place resize of the partition you want to extend into the area of unallocated space - if that works, you're done!</p></li>
+<li><p>If that doesn't work, delete your linux-swap partition, and move your extended partition to the left of the available space.</p></li>
+<li><p>Move your main partition to the left, too, and grow it to the desired size to the right.</p></li>
+<li><p>Create new linux-swap logical partition to replace the one you deleted earlier.</p></li>
+</ol>
+
+
+<p>The key to this procedure is moving the partitions left. Without doing that, you won't be able to resize the main partition.</p>
+
+<p>An alternative, but more risky procedure is to expand your VDI with CloneVDI so that you can create an entire new parition with the desired size. Then, copy the contents from your original partition to the new old in GParted and set the "boot" mark to the new one. When I tried that, however, I lost my master boot record in the process and had to reinstall my Grub bootloader and configure it to mount Linux, which is an ugly process (I might write up the details in another post).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows N and KN Versions]]></title>
+    <link href="http://blog.maximzaslavsky.com/windows-7-versions"/>
+    <updated>2010-02-13T00:00:00-08:00</updated>
+    <id>http://blog.maximzaslavsky.com/windows-7-versions</id>
+    <content type="html"><![CDATA[<p><em>Note: This is a revamp of <a href="http://blog.maximzaslavsky.com/2010/02/windows-7-n-and-kn-versions/">a post</a> from my old blog.  It was originally published on February 13, 2010.</em></p>
+
+<p>For MSDN users who are confused about the N and KN versions of Windows that are available, since there is very little documentation about this, those are distributions specifically for Europe.</p>
+
+<p>As I understand, the EU requires Microsoft to release such versions. They're identical to standard versions with only one difference: in Windows 7, for example, those versions have no media players/apps from Microsoft pre-installed.</p>
+
+<p><strong>No Windows Media Player. No Windows Media Center.</strong></p>
+
+<p>But if you want these features in your N/KN install, you can download the <a href="http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=19289">Windows Media Format Feature Pack</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
