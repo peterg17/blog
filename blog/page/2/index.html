@@ -7,7 +7,7 @@
     <meta name="author" content="Maxim Zaslavsky">
 
     
-    <meta name="description" content="Starting Fresh My previous blog is a jumble of old posts and ideas in desparate need of abandonement. So I&#8217;m finally moving to Jekyll ( &hellip;">
+    <meta name="description" content="Local Git Sharing With a Virtual Machine My recent projects have involved work between two OSes. I run Windows as my host OS and virtualize Ubuntu, &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -66,6 +66,80 @@
 
 </header>
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/local-git-sharing-with-a-virtual-machine">Local Git Sharing With a Virtual Machine</a></h1>
+    <div class="entry">
+        <p>My recent projects have involved work between two OSes. I run Windows as my host OS and virtualize Ubuntu, and in order to share work efficiently between the two, I&#8217;ve been using a local bare Git repository in a shared folder.</p>
+
+<p>It&#8217;s quite simple to set up:</p>
+
+<p>First, make sure that you have a shared folder that is available to both your host and your guest OS. I personally use VirtualBox&#8217;s Guest Additions and its built-in Shared Folders functionality, so I mount my share using the following command, where &#8220;share&#8221; is the name of the shared folder I have defined in VirtualBox, and &#8220;~/host&#8221; is the path to which I am mounting:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo mount -t vboxsf share ~/host</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, initialize a bare Git repository in the shared folder:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd "~/host"
+</span><span class='line'>mkdir myrepo
+</span><span class='line'>cd myrepo
+</span><span class='line'>git init --bare</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Almost done. Return to your original repository and add to its remotes:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git remote add local "~/host/myrepo"
+</span><span class='line'>git push local master</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally, clone that repository from your other OS:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone "C:\vmshared\myrepo"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, you can <code>git push</code> and <code>git pull</code> between your repository on the host OS and your repository on the guest OS to synchronize changes.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-24T21:35:00-07:00" pubdate data-updated="true">May 24<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/categories/code/'>code</a>
+  
+</div>
+
+</div>
+        
+        <span class="comments"><a href="/local-git-sharing-with-a-virtual-machine#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
 
 
     <article class="post">

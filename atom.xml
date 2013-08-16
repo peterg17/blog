@@ -4,7 +4,7 @@
   <title><![CDATA[Maxim Zaslavsky]]></title>
   <link href="http://blog.maximzaslavsky.com/atom.xml" rel="self"/>
   <link href="http://blog.maximzaslavsky.com/"/>
-  <updated>2013-06-07T15:44:16-07:00</updated>
+  <updated>2013-08-16T16:01:16-07:00</updated>
   <id>http://blog.maximzaslavsky.com/</id>
   <author>
     <name><![CDATA[Maxim Zaslavsky]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu password reset]]></title>
+    <link href="http://blog.maximzaslavsky.com/ubuntu-pass-reset"/>
+    <updated>2013-08-10T00:00:00-07:00</updated>
+    <id>http://blog.maximzaslavsky.com/ubuntu-pass-reset</id>
+    <content type="html"><![CDATA[<p>Having forgotten the root passwords to several of my Ubuntu virtual machines, I searched for ways to crack or reset the passwords. Here&#8217;s my solution.</p>
+
+<p>First, you want to get access to a root shell so you can change passwords and other settings. The easiest way to do this is to boot into Ubuntu recovery mode from the GRUB bootloader screen. Select &#8220;root&#8221; from the options menu that appears. This drops you into a root shell!
+Ubuntu now mounts the filesystem as read-only by default, so execute <code>mount -o rw,remount /</code> to remount it with read-write permissions.</p>
+
+<p>If you don&#8217;t have a recovery mode option in your bootloader menu, boot up from a Linux live CD. Open a terminal window, then execute the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo su # Authenticate as root within your live-CD environment
+</span><span class='line'>fdisk -l # List the hard drives available on your system, and identify which one holds your Linux setup. In this example, /dev/sda1 is my Linux partition.
+</span><span class='line'>mkdir /mnt/internalhdd # Create a mounting point
+</span><span class='line'>mount /dev/sda1 /mnt/internalhdd # Mount your Linux partition
+</span><span class='line'>chroot /mnt/internalhdd # Change root into your Linux partition. Now you have root access!</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now that you have a root shell, run <code>passwd root</code> and <code>passwd [your-username-here]</code> to reset passwords for your accounts.</p>
+
+<p>If you used the Linux live CD method, here are the commands you should execute to safely unmount your Linux partition:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>exit # Exit to one level up, i.e. from /mnt/internalhdd root to root on your Linux live CD
+</span><span class='line'>umount /mnt/internalhdd # Unmount your Linux partition
+</span><span class='line'>mount # List mounted devices. Confirm that /dev/sda1 is not mounted anywhere else.
+</span><span class='line'>exit # Exit to one level up, i.e. from root on your Linux live CD to the default user account on your Linux live CD
+</span><span class='line'>exit # Exit to one level up, i.e. close the terminal window.</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I was accidentally featured on the news]]></title>
