@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Maxim Zaslavsky]]></title>
+  <title><![CDATA[Maxim Zaslavsky's Blog]]></title>
   <link href="http://blog.maximzaslavsky.com/atom.xml" rel="self"/>
   <link href="http://blog.maximzaslavsky.com/"/>
-  <updated>2013-08-16T16:01:16-07:00</updated>
+  <updated>2013-12-20T20:19:47-08:00</updated>
   <id>http://blog.maximzaslavsky.com/</id>
   <author>
     <name><![CDATA[Maxim Zaslavsky]]></name>
