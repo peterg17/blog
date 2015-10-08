@@ -1,3 +1,11 @@
+# gotchas
+
+permalink structure for pages is tough to work with. default is `pagename.html`. to change, add this line to yaml front matter in your page markdown:
+
+```
+permalink: /{put whatever page name you have here}/index.html
+```
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
