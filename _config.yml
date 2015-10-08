@@ -22,18 +22,6 @@ author:
 paginate:         5
 
 
-# fix permalinks for pages
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages" # previously `page` in Jekyll 2.2.
-    values:
-      #permalink: "/:title"
-      #permalink: /:path/:basename
-      #permalink: /:path/:basename:output_ext
-      permalink: /:path/:basename/index.html
-      # note that index.html has to be handled separately
 # Custom vars go here
 
 

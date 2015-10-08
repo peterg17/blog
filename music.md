@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Music"
+permalink: /music/index.html
 ---
 
 **[See my music CV.](https://dl.dropboxusercontent.com/u/88008064/music_maximz.pdf)**
