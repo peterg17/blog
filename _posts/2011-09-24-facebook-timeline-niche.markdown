@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Facebook's New Niche"
+date: 2011-09-24
+comments: true
+categories: web
+---
+
+*Note: This is a repost of [a post](http://blog.maximzaslavsky.com/2011/09/facebooks-new-niche/) from my old blog. It was originally published on September 24, 2011.*
+
+In the midst of Facebook’s widly-discussed UI changes this week, one new feature fell through the cracks: the Timeline (currently only in developer beta, but you can be involved by [following these steps](http://techcrunch.com/2011/09/22/how-to-enable-facebook-timeline/)).
+
+![Timeline](http://i.imgur.com/w1or6.jpg)
+
+This new Timeline feature solves a major UI problem that Facebook has been plagued by – the disorganization of each user’s content. The previously-separate Wall, Info, Photos, and so on have all been combined into a single, centralized profile page. But the timeline goes beyond that. In displaying your entire Facebook activity over time, it also allows you to add “life events”, from achievements to medical events to anything, really.
+
+By now, you’ve probably realized that these features don’t just show your entire Facebook activity – they’re meant to show your entire life.
+
+(Note: Sure, this situation is interesting in terms of privacy, but let’s just assume that people will be willing to share the events of their lives. So far, they have been pretty willing.)
+
+The main thing going for Facebook here is how much information they have. Besides sharing information, users give Facebook a ton of personal data. They’ve finally started using this data for more than just targeted advertising; for example, the timeline has a map page that tracks your activity, intersecting place information with status updates and more.
+
+![Map](http://i.imgur.com/oGjVZ.png)
+
+**Life-tracking might be Facebook’s niche.** Google+’s focus is sharing, not identity creation. In terms of user identity, G+ certainly aims to consolidate your web activity under one profile. But Facebook doesn’t have the web – instead, they combine activity on their site (status updates, photos, places, and now app activity via Open Graph) with the life events you input. In a way, Google+ and Facebook aren’t currently competing in that realm, although Google might certainly try to follow Facebook. If anyone could do something like that best, it would be Google, specifically because of how much we rely on their services in our lives and how much information we have about ourselves on the web.
+
+Hopefully, this timeline feature won’t be treated as just another annoying Facebook redesign. It has the potential to change the way we approach the Internet and collect our online identities. Facebook has been making dumb moves lately – but this might be **their killer app**.

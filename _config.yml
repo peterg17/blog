@@ -1,0 +1,43 @@
+# Dependencies
+markdown:         rdiscount
+#redcarpet
+highlighter:      pygments
+
+# Permalinks
+#permalink:        pretty
+permalink: "/:title"
+relative_permalinks: true
+
+# Setup
+title:            Maxim Zaslavsky
+tagline:          "Maxim Zaslavsky's blog: Some thoughts on science and technology, and updates on my work"
+description:      "Updates from <a href='https://www.maximzaslavsky.com' rel='me' target='_blank'>Maxim Zaslavsky</a>."
+url:              http://blog.maximzaslavsky.com
+baseurl:          /
+
+author:
+  name:           'Maxim Zaslavsky'
+  url:            https://www.maximzaslavsky.com
+
+paginate:         5
+
+
+# fix permalinks for pages
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      #permalink: "/:title"
+      #permalink: /:path/:basename
+      #permalink: /:path/:basename:output_ext
+      permalink: /:path/:basename/index.html
+      # note that index.html has to be handled separately
+# Custom vars go here
+
+
+# See:
+# http://joshualande.com/jekyll-github-pages-poole/
+# http://joshualande.com/short-urls-jekyll/
+# http://jekyllrb.com/docs/configuration/#front-matter-defaults
