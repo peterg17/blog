@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the road to the future: exploring the self-driving car revolution"
-date: 2013-03-01 00:00
+date: 2013-03-01 00:00 -0800
 comments: true
 published: true
 categories: writing

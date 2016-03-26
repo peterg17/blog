@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Facebook's New Niche"
-date: 2011-09-24
+date: 2011-09-24 00:00 -0800
 comments: true
 categories: web
 ---

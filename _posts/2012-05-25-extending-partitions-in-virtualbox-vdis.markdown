@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Extending and resizing partitions in VirtualBox VDIs"
-date: 2012-05-25 00:37
+date: 2012-05-25 00:37 -0800
 comments: true
 published: true
 categories: sysadmin

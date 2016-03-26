@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Subjective Justice: The tale of Aaron Swartz"
-date: 2013-05-31 20:00
+date: 2013-05-31 20:00 -0800
 comments: true
 published: true
 categories: writing

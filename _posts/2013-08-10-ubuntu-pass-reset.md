@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu password reset"
-date: 2013-08-10 00:00
+date: 2013-08-10 00:00 -0800
 comments: true
 published: true
 categories: sysadmin

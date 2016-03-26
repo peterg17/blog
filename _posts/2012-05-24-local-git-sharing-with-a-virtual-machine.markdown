@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Local Git sharing with a virtual machine"
-date: 2012-05-24 21:35
+date: 2012-05-24 21:35 -0800
 comments: true
 categories: code
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I was accidentally featured on the news"
-date: 2013-06-01 00:00
+date: 2013-06-01 00:00 -0800
 comments: true
 published: true
 categories: press

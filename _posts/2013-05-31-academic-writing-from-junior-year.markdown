@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Academic writing from last year of high school"
-date: 2013-05-31 00:00
+date: 2013-05-31 00:00 -0800
 comments: true
 published: true
 categories: writing

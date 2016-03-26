@@ -2,11 +2,12 @@
 markdown:         rdiscount
 #redcarpet
 highlighter:      pygments
+gems:
+  - jekyll-paginate
 
 # Permalinks
 #permalink:        pretty
 permalink: "/:title"
-relative_permalinks: true
 
 # Setup
 title:            Maxim Zaslavsky

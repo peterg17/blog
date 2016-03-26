@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Wikipedia Dilemna"
-date: 2010-05-06 00:00
+date: 2010-05-06 00:00 -0800
 comments: true
 published: true
 categories: writing

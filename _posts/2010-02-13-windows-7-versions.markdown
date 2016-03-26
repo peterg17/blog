@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Windows N and KN Versions"
-date: 2010-02-13
+date: 2010-02-13 00:00 -0800
 comments: true
 categories: sysadmin
 ---

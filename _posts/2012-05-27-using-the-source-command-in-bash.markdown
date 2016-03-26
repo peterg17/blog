@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using the source command in bash"
-date: 2012-05-27 00:51
+date: 2012-05-27 00:51 -0800
 comments: true
 published: true
 categories: code

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Positioning issues with Colorbars in Matplotlib"
-date: 2012-05-26 01:36
+date: 2012-05-26 01:36 -0800
 comments: true
 published: true
 categories: code

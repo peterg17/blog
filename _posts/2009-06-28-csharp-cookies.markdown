@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C#: handling cookies in a series of HttpWebRequest and HttpWebResponse sessions"
-date: 2009-06-28
+date: 2009-06-28 00:00 -0800
 comments: true
 categories: code
 ---

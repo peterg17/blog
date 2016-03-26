@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dead-Simple Ethernet Bridge/Hub"
-date: 2009-12-27
+date: 2009-12-27 00:00 -0800
 comments: true
 categories: hardware
 ---

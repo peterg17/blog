@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Love Thy Enemy: The Selfish Power of Cooperation"
-date: 2013-05-01 00:00
+date: 2013-05-01 00:00 -0800
 comments: true
 published: true
 categories: writing

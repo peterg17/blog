@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding a favicon to your Wordpress.com blog"
-date: 2009-06-01
+date: 2009-06-01 00:00 -0800
 comments: true
 categories: code
 ---

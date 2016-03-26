@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open source music composition"
-date: 2012-03-12
+date: 2012-03-12 00:00 -0800
 comments: true
 published: false
 categories: music

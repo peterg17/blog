@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forget College - Go to Preschool"
-date: 2013-04-01 00:00
+date: 2013-04-01 00:00 -0800
 comments: true
 published: true
 categories: writing
