@@ -7,7 +7,7 @@ published: true
 categories: writing
 ---
 
-_Originally published during my 7th grade year in _The Daily Urinal_, the "underground" newspaper of The Bishop's School._
+_Originally published during my 7th grade year in _The Daily Urinal_, the "underground" newspaper of my middle school._
 
 Try googling “Pompeii Vesuvius eruption,” or “Amyloidosis.” Can you guess what will be on the first page? That’s right: a Wikipedia article. If Wikipedia is so ubiquitous, why are our teachers restricting its uses for research? 
 
