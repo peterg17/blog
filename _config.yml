@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         rdiscount
 #redcarpet
-highlighter:      pygments
+highlighter:      rouge
 gems:
   - jekyll-paginate
 
@@ -10,15 +10,18 @@ gems:
 permalink: "/:title"
 
 # Setup
-title:            Maxim Zaslavsky
-tagline:          "Maxim Zaslavsky's blog: Some thoughts on science and technology, and updates on my work"
-description:      "Updates from <a href='https://www.maximzaslavsky.com' rel='me' target='_blank'>Maxim Zaslavsky</a>."
-url:              http://blog.maximzaslavsky.com
+title:            Peter Griggs
+tagline:          "Peter Griggs' Blog"
+description:      "Programming, Security, Random Thoughts..."
+url:              http://blog.petergriggs.com
 baseurl:          /
 
+#<a href='https://www.petergriggs.com' rel='me' target='_blank'>Peter Griggs</a>
+
+
 author:
-  name:           'Maxim Zaslavsky'
-  url:            https://www.maximzaslavsky.com
+  name:           'Peter Griggs'
+  url:            https://www.petergriggs.com
 
 paginate:         5
 
