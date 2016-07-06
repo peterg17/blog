@@ -10,6 +10,7 @@ categories: updates
 [comment]:A summary of Pycon 2016, the largest Python conference in the US, held this year in Portland, Oregon.
 My first blog post is in the works ... Almost Here!
 
+
 -------
 
 [comment]: <> (This is a comment, it will not be included)[Official Pycon Website](https://us.pycon.org/2016/)
@@ -18,3 +19,4 @@ My first blog post is in the works ... Almost Here!
 [comment]:* The Conference
 [comment]:* Code Sprints
 [comment]:![Here's a shot of Guido Von Rossum giving his yearly talk]({{ site.url }}/public/screenshot.png)
+My First Blog Post
